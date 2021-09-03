@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <script
+      src="https://kit.fontawesome.com/a4727e30c6.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!--Nav-->
+    <input
+      id="page-nav-toggle"
+      class="main-navigation-toggle"
+      type="checkbox"
+    />
+    <label for="page-nav-toggle">
+      <svg class="icon--menu-toggle" viewBox="0 0 60 30">
+        <g class="icon-group">
+          <g class="icon--menu">
+            <path d="M 6 0 L 54 0" />
+            <path d="M 6 15 L 54 15" />
+            <path d="M 6 30 L 54 30" />
+          </g>
+          <g class="icon--close">
+            <path d="M 15 0 L 45 30" />
+            <path d="M 15 30 L 45 0" />
+          </g>
+        </g>
+      </svg>
+    </label>
+
+    <nav class="main-navigation">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="proyectos.html">Proyectos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!---->
+
+    <main>
+      <section class="main-content">
+        <div class="contact">
+          <h1>Contactame</h1>
+
+          <div class="contact__item">
+            <div class="title">
+              <i class="fas fa-envelope fa-2x"></i>
+              <p>Email</p>
+            </div>
+            <div class="description"><p>dani54196@gmail.com</p></div>
+          </div>
+
+          <div class="contact__item">
+            <div class="title">
+              <i class="fas fa-mobile-alt fa-2x"></i>
+              <p>Telefono</p>
+            </div>
+            <div class="description">
+              <span>+54 9 261 241-1868</span>
+              <div class="boton">
+                <div class="mensaje">
+                  <a href="https://wa.me/5492612411868"
+                    ><i class="fab fa-whatsapp"></i> Enviar mensaje</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__item">
+            <div class="title">
+              <i class="fas fa-map-marker-alt fa-2x"></i>
+              <p>Ubicacion</p>
+            </div>
+            <div class="description"><p>Buenos Aires</p></div>
+          </div>
+          <div class="boton">
+            <a href="./CV_Daniel_Cardozo.pdf" download> Descargar CV</a>
+          </div>
+
+          <div class="contact__icons">
+            <div class="icon">
+              <a href="https://github.com/dani54196">
+                <i class="fab fa-github fa-3x"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!---->
+    <!---->
+  </body>
+</html>
