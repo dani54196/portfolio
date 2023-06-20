@@ -16,7 +16,7 @@ const socialLinks = [
 	{
 		id: 2,
 		icon: <FiGithub />,
-		url: 'https://github.com/realstoman',
+		url: 'https://github.com/dani54196',
 	},
 	{
 		id: 3,
@@ -26,7 +26,7 @@ const socialLinks = [
 	{
 		id: 4,
 		icon: <FiLinkedin />,
-		url: 'https://www.linkedin.com/in/realstoman',
+		url: 'https://www.linkedin.com/in/dani54196',
 	},
 	{
 		id: 5,
