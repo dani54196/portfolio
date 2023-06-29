@@ -1,36 +1,32 @@
 // Import images
-import AmazonImage from "../images/brands/amazon_gray.png";
-import SonyImage from "../images/brands/sony_gray.png";
-import AdidasImage from "../images/brands/adidas_gray.png";
-import FilaImage from "../images/brands/fila_gray.png";
-import NBImage from "../images/brands/nb_gray.png";
-import SamsungImage from "../images/brands/samsung_gray.png";
-import CanonImage from "../images/brands/canon_gray.png";
-import PumaImage from "../images/brands/puma_gray.png";
+import Ubronline from "../images/brands/ubronline.png";
+import Panda from "../images/brands/panda.png";
+//import AdidasImage from "../images/brands/adidas_gray.png";
+//import FilaImage from "../images/brands/fila_gray.png";
 
 export const clientsHeading = "Some of the brands that trust me";
 
 export const clientsData = [
   {
     id: 1,
-    title: "ChinoPandarin",
-    img: AmazonImage,
+    title: "Ubro Online",
+    img: Ubronline,
   },
   {
     id: 2,
     title: "MenuQr",
-    img: SonyImage,
+    img: Panda,
   },
-  {
-    id: 3,
-    title: "FoodDelivery",
-    img: AdidasImage,
-  },
-  {
-  	id: 4,
-  	title: 'Ubro',
-  	img: FilaImage,
-  },
+  // {
+  //   id: 3,
+  //   title: "FoodDelivery",
+  //   img: AdidasImage,
+  // },
+  // {
+  // 	id: 4,
+  // 	title: 'Ubro',
+  // 	img: FilaImage,
+  // },
   // {
   // 	id: 5,
   // 	title: 'NB',

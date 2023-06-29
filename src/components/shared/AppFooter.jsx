@@ -1,4 +1,4 @@
-import { FiGithub, FiLinkedin, FiGlobe, FiSmartphone } from "react-icons/fi";
+import { FiGithub, FiLinkedin, FiGlobe, FiSmartphone, FiInstagram } from "react-icons/fi";
 import AppFooterCopyright from "./AppFooterCopyright";
 
 const socialLinks = [
@@ -13,15 +13,21 @@ const socialLinks = [
     url: "https://github.com/dani54196",
   },
   {
-    id: 4,
+    id: 3,
     icon: <FiLinkedin />,
     url: "https://www.linkedin.com/in/dani54196",
   },
   {
-    id: 3,
+    id: 4,
     icon: <FiSmartphone />,
     url: "https://wa.link/by6qb5",
   },
+  {
+    id: 5,
+    icon: <FiInstagram />,
+    url: "https://instagram.com/dani54196",
+  },
+
 ];
 
 const AppFooter = () => {
