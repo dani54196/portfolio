@@ -27,13 +27,19 @@ export const projectsData = [
   {
     id: 3,
     title: "Church management App",
-    category: "CI/CD",
+    category: "Fullstack Application",
     img: UIImage1,
   },
   {
     id: 4,
     title: "Cloud Storage Platform",
-    category: "Backend API",
+    category: "CI/CD",
+    img: UIImage2,
+  },
+  {
+    id: 5,
+    title: "API Admin Dashboard",
+    category: "Backend",
     img: UIImage2,
   },
 ];
