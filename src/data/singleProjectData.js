@@ -8,7 +8,6 @@ import Image6 from '../images/ui-project-2.jpg';
 // Import icons
 import {
 	FiFacebook,
-	FiInstagram,
 	FiLinkedin,
 	FiTwitter,
 	FiYoutube,
@@ -107,12 +106,6 @@ export const singleProjectData = {
 				name: 'Twitter',
 				icon: <FiTwitter />,
 				url: 'https://twitter.com/realstoman',
-			},
-			{
-				id: 2,
-				name: 'Instagram',
-				icon: <FiInstagram />,
-				url: 'https://instagram.com/realstoman',
 			},
 			{
 				id: 3,

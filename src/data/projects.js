@@ -10,7 +10,7 @@ export const projectsData = [
   {
     id: 1,
     title: "Menu QR",
-    category: "Web Application",
+    category: "Fullstack Application",
     img: WebImage2,
     ProjectHeader: {
       title: "Fullstack Application for Restaurants",
@@ -27,13 +27,14 @@ export const projectsData = [
   {
     id: 3,
     title: "Church management App",
-    category: "UI/UX Design",
+    category: "CI/CD",
     img: UIImage1,
   },
   {
     id: 4,
     title: "Cloud Storage Platform",
-    category: "UI/UX Design",
+    category: "Backend API",
     img: UIImage2,
   },
 ];
+ 
