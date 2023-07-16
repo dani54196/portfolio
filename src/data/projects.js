@@ -43,4 +43,3 @@ export const projectsData = [
     img: UIImage2,
   },
 ];
- 
