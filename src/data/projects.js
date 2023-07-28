@@ -42,4 +42,16 @@ export const projectsData = [
     category: "Backend",
     img: UIImage2,
   },
+  {
+    id: 5,
+    title: "API Admin Dashboard",
+    category: "Backend",
+    img: UIImage2,
+  },
+  {
+    id: 5,
+    title: "API Admin Dashboard",
+    category: "Backend",
+    img: UIImage2,
+  },
 ];
